@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class DB</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Config.html">Config</a></li>
+				<li><a href="class-Cookie.html">Cookie</a></li>
+				<li class="active"><a href="class-DB.html">DB</a></li>
+				<li><a href="class-Hash.html">Hash</a></li>
+				<li><a href="class-Input.html">Input</a></li>
+				<li><a href="class-Redirect.html">Redirect</a></li>
+				<li><a href="class-Session.html">Session</a></li>
+				<li><a href="class-Token.html">Token</a></li>
+				<li><a href="class-User.html">User</a></li>
+				<li><a href="class-Validate.html">Validate</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-escape.html">escape</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class DB</h1>
+
+
+	<div class="description">
+	<p>Tao doi tuong de ket noi database</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Category:</b>
+				classes<br>
+				<b>Var:</b>
+				object $_instance The hien cua doi tuong thuoc class DB<br>
+				<b>Var:</b>
+				object $_pdo Doi tuong ket noi database<br>
+				<b>Var:</b>
+				object $_query Doi tuong truy van database<br>
+				<b>Var:</b>
+				boolean $_error Gia tri the hien co loi hay khong khi thao tac voi database<br>
+				<b>Var:</b>
+				object $_results Gia tri truy van database<br>
+				<b>Var:</b>
+				int $_count So luong record trong ket qua truy van<br>
+			<b>Located at</b> <a href="source-class-DB.html#2-206" title="Go to source code">classes/DB.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-DB.html#20-30" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			<p>Khoi tao doi tuong thuoc class DB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Khoi tao doi tuong thuoc class DB</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getInstance" id="_getInstance">
+
+		<td class="attributes"><code>
+			 public static
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getInstance">#</a>
+		<code><a href="source-class-DB.html#32-41" title="Go to source code">getInstance</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve the hien cua doi tuong thuoc class DB</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve the hien cua doi tuong thuoc class DB</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="query" id="_query">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_query">#</a>
+		<code><a href="source-class-DB.html#43-70" title="Go to source code">query</a>( <span>string <var>$sql</var></span>, <span>array <var>$params</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Thuc hien truy van co so du lieu</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Thuc hien truy van co so du lieu</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$sql</var></dt>
+					<dd>Cau lenh truy van database</dd>
+					<dt><var>$params</var></dt>
+					<dd>Mang cac gia tri cua cau lenh truy van database</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="get" id="_get">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_get">#</a>
+		<code><a href="source-class-DB.html#99-107" title="Go to source code">get</a>( <span>string <var>$table</var></span>, <span>array <var>$where</var></span> )</code>
+
+		<div class="description short">
+			<p>Tra ve doi tuong khi thuc hien cau lenh select</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve doi tuong khi thuc hien cau lenh select</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Ten table khi thuc hien truy van</dd>
+					<dt><var>$where</var></dt>
+					<dd>Dieu kien where khi thuc hien truy van</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="delete" id="_delete">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_delete">#</a>
+		<code><a href="source-class-DB.html#109-117" title="Go to source code">delete</a>( <span>string <var>$table</var></span>, <span>array <var>$where</var></span> )</code>
+
+		<div class="description short">
+			<p>Tra ve doi tuong khi thuc hien cau lenh delete</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve doi tuong khi thuc hien cau lenh delete</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Ten table khi thuc hien truy van</dd>
+					<dt><var>$where</var></dt>
+					<dd>Dieu kien where khi thuc hien truy van</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="insert" id="_insert">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_insert">#</a>
+		<code><a href="source-class-DB.html#119-145" title="Go to source code">insert</a>( <span>string <var>$table</var></span>, <span>array <var>$fields</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Chen du lieu vao database</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Chen du lieu vao database</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Ten table khi thuc hien truy van</dd>
+					<dt><var>$fields</var></dt>
+					<dd>Mang cac gia tri cua cau lenh insert</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="update" id="_update">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_update">#</a>
+		<code><a href="source-class-DB.html#148-173" title="Go to source code">update</a>( <span>string <var>$table</var></span>, <span>string <var>$id</var></span>, <span>array <var>$fields</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Cap nhat du lieu database</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Cap nhat du lieu database</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$table</var></dt>
+					<dd>Ten table khi thuc hien truy van</dd>
+					<dt><var>$id</var></dt>
+					<dd>Id cua record thuc hien update du lieu</dd>
+					<dt><var>$fields</var></dt>
+					<dd>Mang cac gia tri cua cau lenh update</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="results" id="_results">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_results">#</a>
+		<code><a href="source-class-DB.html#175-181" title="Go to source code">results</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve ket qua truy van database</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve ket qua truy van database</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="first" id="_first">
+
+		<td class="attributes"><code>
+			 public 
+
+			mixed
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_first">#</a>
+		<code><a href="source-class-DB.html#183-189" title="Go to source code">first</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve record dau tien khi truy van database</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve record dau tien khi truy van database</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					mixed
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="error" id="_error">
+
+		<td class="attributes"><code>
+			 public 
+
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_error">#</a>
+		<code><a href="source-class-DB.html#191-197" title="Go to source code">error</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve gia tri the hien co loi hay khong</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve gia tri the hien co loi hay khong</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					string
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="count" id="_count">
+
+		<td class="attributes"><code>
+			 public 
+
+			number
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_count">#</a>
+		<code><a href="source-class-DB.html#199-205" title="Go to source code">count</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve so luong record khi truy van database</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve so luong record khi truy van database</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					number
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class Validate</title>
+
+	<link rel="stylesheet" href="resources/style.css?e99947befd7bf673c6b43ff75e9e0f170c88a60e">
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+		</div>
+
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-Config.html">Config</a></li>
+				<li><a href="class-Cookie.html">Cookie</a></li>
+				<li><a href="class-DB.html">DB</a></li>
+				<li><a href="class-Hash.html">Hash</a></li>
+				<li><a href="class-Input.html">Input</a></li>
+				<li><a href="class-Redirect.html">Redirect</a></li>
+				<li><a href="class-Session.html">Session</a></li>
+				<li><a href="class-Token.html">Token</a></li>
+				<li><a href="class-User.html">User</a></li>
+				<li class="active"><a href="class-Validate.html">Validate</a></li>
+			</ul>
+
+
+
+
+
+			<h3>Functions</h3>
+			<ul>
+				<li><a href="function-escape.html">escape</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="">
+		<input type="hidden" name="ie" value="UTF-8">
+		<input type="text" name="q" class="text" placeholder="Search">
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Validate</h1>
+
+
+	<div class="description">
+	<p>Doi tuong xu ly viec validate du lieu dau vao</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		
+		
+
+				<b>Category:</b>
+				classes<br>
+				<b>Var:</b>
+				boolean $_passed The hien du lieu dau vao co hop le hay khong<br>
+				<b>Var:</b>
+				array $_error Danh sach cac loi tim duoc<br>
+				<b>Var:</b>
+				object $_db Doi tuong ket noi database<br>
+			<b>Located at</b> <a href="source-class-Validate.html#2-95" title="Go to source code">classes/Validate.php</a>
+		<br>
+	</div>
+
+
+
+	<table class="summary methods" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Validate.html#14-19" title="Go to source code">__construct</a>( )</code>
+
+		<div class="description short">
+			<p>Ham khoi tao ket noi database</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Ham khoi tao ket noi database</p>
+
+
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="check" id="_check">
+
+		<td class="attributes"><code>
+			 public 
+
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_check">#</a>
+		<code><a href="source-class-Validate.html#21-70" title="Go to source code">check</a>( <span>string <var>$source</var></span>, <span>array <var>$items</var> = <span class="php-keyword1">array</span>()</span> )</code>
+
+		<div class="description short">
+			<p>Thuc hien kiem tra du lieu dau vao</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Thuc hien kiem tra du lieu dau vao</p>
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$source</var></dt>
+					<dd>Ten phuong thuc truyen du lieu</dd>
+					<dt><var>$items</var></dt>
+					<dd>Tap hop cac dieu kien can kiem tra du lieu dau vao</dd>
+				</dl></div>
+
+				<h4>Returns</h4>
+				<div class="list">
+					<br>$this
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="errors" id="_errors">
+
+		<td class="attributes"><code>
+			 public 
+
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_errors">#</a>
+		<code><a href="source-class-Validate.html#80-86" title="Go to source code">errors</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve gia tri cac loi khi validate du lieu</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve gia tri cac loi khi validate du lieu</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					array
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="passed" id="_passed">
+
+		<td class="attributes"><code>
+			 public 
+
+			boolean
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_passed">#</a>
+		<code><a href="source-class-Validate.html#88-94" title="Go to source code">passed</a>( )</code>
+
+		<div class="description short">
+			<p>Tra ve gia tri validate true hay false</p>
+		</div>
+
+		<div class="description detailed hidden">
+			<p>Tra ve gia tri validate true hay false</p>
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					boolean
+				</div>
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		 API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>
